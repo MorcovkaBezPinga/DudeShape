@@ -7,10 +7,15 @@
 
 /* Хедер */
 .header {
-  width: 100%;
-  background: #ffffff;
+  background: #fff;
   padding: 20px 0;
   border-bottom: 1px solid #e6e6e6; /* чтобы было видно границу */
+  width: 1200px;
+  height: 29px;
+  font-family: "DM Sans", sans-serif;
+  second-family: "Montserrat", sans-serif;
+  margin-left: 120px;
+  margin-top: 44px;
 }
 
 .header__inner {
@@ -21,38 +26,194 @@
 
 /* Логотип */
 .logo {
+  font-weight: 700;
   font-size: 24px;
-  font-weight: 600;
-  color: #2a2a2a;
+  color: #244d4d;
+  cursor: pointer;
 }
 
 /* Меню */
 .nav {
+  gap: 50px;
+  width: 472px;
+  height: 21px;
+  font-family: "DM Sans", sans-serif;
+  second-family: "Montserrat", sans-serif;
   display: flex;
-  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 80px;
 }
-
 .nav a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #161616;
   text-decoration: none;
-  color: #3a3a3a;
-  font-size: 15px;
-  transition: 0.2s;
 }
-
-.nav a:hover {
-  color: #0066ff;
-}
-
 /* Иконки справа */
 .header__icons {
   display: flex;
   gap: 15px;
 }
-
-.search-btn,
-.burger-btn {
-  background: none;
-  border: none;
-  font-size: 20px;
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.header__icons {
   cursor: pointer;
+  gap: 30px;
+}
+.make {
+  background: #154444;
+  width: 1200px;
+  height: 560px;
+  margin-left: 120px;
+}
+.make img {
+  width: 411px;
+  height: 560px;
+  margin-left: 0px;
+}
+.text_container {
+  width: 671px;
+  height: 231px;
+  margin-left: 511px;
+  margin-top: -490px;
+}
+.text_container h1 {
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  second-family: "Montserrat", sans-serif;
+}
+.text_container p {
+  font-weight: 400;
+  font-size: 20px;
+
+  /* line-height: 25px; */
+  line-height: 1.25;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+/* Make_Button */
+.make_button {
+  width: 172px;
+  height: 56px;
+  /* background */
+  background: #fff;
+
+  font-weight: 400;
+  font-size: 20px;
+
+  /* text_button */
+
+  /* line-height: 25px; */
+  line-height: 1.25;
+  color: #154444;
+
+  /* possition */
+
+  margin-left: 511px;
+  margin-top: 35px;
+  border: none;
+}
+.paypal_container {
+  width: 1082px;
+  height: 133px;
+}
+.paypal_container p {
+  font-weight: 700;
+  font-size: 32px;
+  color: #244d4d;
+  font-family: "DM Sans", sans-serif;
+  second-family: "Montserrat", sans-serif;
+
+  /* position */
+
+  margin-left: 511px;
+  margin-top: 140px;
+}
+.pay {
+  width: 1082px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  cursor: pointer;
+
+  /* position */
+
+  margin-left: 180px;
+  margin-top: 50px;
+}
+.temp {
+  width: 1167px;
+  height: 612px;
+
+  /* position */
+
+  margin-left: 136px;
+  margin-top: 140px;
+}
+.temp img {
+  width: 631px;
+  height: 612px;
+}
+.temp_text {
+  width: 436px;
+  height: 517px;
+  background-color: #fff;
+
+  /* position */
+
+  margin-left: 800px;
+  margin-top: -565px;
+}
+.about {
+  width: 436px;
+  height: 135px;
+}
+.about h2 {
+  font-weight: 700;
+  font-size: 32px;
+
+  /* line-height: 40px; */
+  line-height: 1.25;
+  color: #244d4d;
+
+  font-family: "DM Sans", sans-serif;
+  second-family: "Montserrat", sans-serif;
+}
+.about p {
+  font-weight: 400;
+  font-size: 20px;
+
+  /* line-height: 25px; */
+  line-height: 1.25;
+  color: #444;
+
+  font-family: "DM Sans", sans-serif;
+  second-family: "Montserrat", sans-serif;
+}
+.temp_card {
+  width: 376px;
+  height: 92px;
+}
+.temp_card h3 {
+  font-weight: 700;
+  font-size: 20px;
+
+  /* line-height: 26px; */
+  line-height: 1.3;
+  color: #244d4d;
+}
+.temp_card p {
+  font-weight: 400;
+  font-size: 18px;
+
+  /* line-height: 26px; */
+  line-height: 1.44444;
+  color: #383738;
 }
