@@ -244,3 +244,136 @@
   margin-left: 70px;
   margin-top: -55px;
 }
+.bay_container {
+  width: 1200px;
+  height: 584px;
+  margin-top: 150px;
+  background-color: #e7e7e7;
+}
+.bay_text {
+  width: 819px;
+  height: 122px;
+  background-color: #fff;
+}
+.bay_text h2 {
+  font-weight: 700;
+  font-size: 32px;
+
+  /* line-height: 52px; */
+  line-height: 1.7;
+  text-align: start;
+  color: #242424;
+  font-family: "DM Sans", sans-serif;
+}
+.bay_text p {
+  font-weight: 400;
+  font-size: 20px;
+
+  /* line-height: 27px; */
+  line-height: 1.2;
+  color: #383738;
+  font-family: "DM Sans", sans-serif;
+  margin-top: -10px;
+}
+.next {
+  width: 96px;
+  height: 40px;
+  background-color: #fff;
+  margin-left: 1100px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: -40px;
+}
+.next svg {
+  margin-top: 12px;
+}
+.photo_bay {
+  width: 1200px;
+  height: 382px;
+  background-color: #c1dcdc;
+  margin-top: 80px;
+}
+.bay_card {
+  width: 380px;
+  height: 382px;
+
+  box-shadow: 0 13px 26px 0 rgba(0, 0, 0, 0.07);
+  background: #fff;
+}
+.bay_card img {
+  width: 380px;
+  height: 246px;
+}
+.text_card {
+  width: 331px;
+  height: 79px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-left: 24px;
+}
+.text_card h3 {
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 27px; */
+  line-height: 1.35;
+  color: #242424;
+  font-family: "DM Sans", sans-serif;
+}
+.link_card {
+  width: 60px;
+  height: 26px;
+  margin-left: 275px;
+  margin-top: -79px;
+  background-color: #fff;
+}
+.like {
+  cursor: pointer;
+  background-color: #ef5423;
+  border: none;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  fill: #ef5423;
+  margin-top: 2px;
+}
+.link_button {
+  cursor: pointer;
+  background-color: #e1dede;
+  border: none;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  fill: #ef5423;
+  margin-top: 2px;
+}
+.link_card button {
+  justify-content: center;
+}
+.coins {
+  font-weight: 500;
+  font-size: 24px;
+
+  /* line-height: 31px; */
+  line-height: 1.29167;
+  color: #154444;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 25px;
+}
+.by_now {
+  cursor: pointer;
+  width: 78px;
+  height: 32px;
+  background: #244d4d;
+  border: none;
+
+  font-weight: 500;
+  font-size: 12px;
+
+  /* line-height: 21px; */
+  line-height: 1.75;
+  color: #fff;
+
+  margin-left: 253px;
+}
