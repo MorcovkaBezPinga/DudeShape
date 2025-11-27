@@ -7,7 +7,7 @@
 
 /* Хедер */
 .header {
-  background: #fff;
+  background: #8a6ab6;
   padding: 20px 0;
   border-bottom: 1px solid #e6e6e6; /* чтобы было видно границу */
   width: 1200px;
@@ -16,6 +16,13 @@
   second-family: "Montserrat", sans-serif;
   margin-left: 120px;
   margin-top: 44px;
+  background: rgba(255, 255, 255, 0.2); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие заднего фона */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  border-radius: 15px; /* скругление углов */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* легкая рамка */
+  padding: 20px;
+  color: white; /* текст яркий на фоне */
 }
 
 .header__inner {
@@ -28,8 +35,16 @@
 .logo {
   font-weight: 700;
   font-size: 24px;
-  color: #244d4d;
+  color: #c5e1e1;
   cursor: pointer;
+}
+.logo:hover {
+  border-radius: 20%;
+  transition: 0.4s ease;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 /* Меню */
@@ -44,15 +59,21 @@
   justify-content: center;
   flex-direction: row;
   gap: 80px;
+  margin-top: 5px;
 }
 .nav a {
   font-weight: 400;
   font-size: 16px;
-  color: #161616;
+  color: #191223;
   text-decoration: none;
 }
 .nav a:hover {
   color: #437979;
+  transition: 0.3s ease;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .nav a:active {
   color: #80bdff;
@@ -74,10 +95,17 @@
   gap: 30px;
 }
 .make {
-  background: #154444;
+  background: #473d55;
   width: 1200px;
   height: 560px;
   margin-left: 120px;
+  background: rgba(255, 255, 255, 0.2); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие заднего фона */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  border-radius: 15px; /* скругление углов */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* легкая рамка */
+  padding: 20px;
+  color: white; /* текст яркий на фоне */
 }
 .make img {
   width: 411px;
@@ -111,7 +139,7 @@
   width: 172px;
   height: 56px;
   /* background */
-  background: #fff;
+  background: #8a6ab6;
 
   font-weight: 400;
   font-size: 20px;
@@ -120,7 +148,7 @@
 
   /* line-height: 25px; */
   line-height: 1.25;
-  color: #154444;
+  color: #1e1a24;
 
   /* possition */
 
@@ -132,12 +160,17 @@
 }
 
 .make_button:hover {
-  background-color: #d9fefc;
+  background-color: #8a6ab6;
   color: #1f4242;
+  transition: 0.3s ease;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .make_button:focus {
   background-color: #aeceee;
-  color: #b2b1b1;
+  color: #000000;
 }
 .paypal_container {
   width: 1082px;
@@ -154,6 +187,7 @@
 
   margin-left: 511px;
   margin-top: 140px;
+  color: #fff;
 }
 .pay {
   width: 1082px;
@@ -167,10 +201,24 @@
 
   margin-left: 180px;
   margin-top: 50px;
+  background: rgba(255, 255, 255, 0.2); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие заднего фона */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  border-radius: 15px; /* скругление углов */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* легкая рамка */
+  padding: 20px;
+  color: white; /* текст яркий на фоне */
 }
 .temp {
-  width: 1167px;
+  width: 1236px;
   height: 612px;
+  background: rgba(255, 255, 255, 0.2); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие заднего фона */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  border-radius: 15px; /* скругление углов */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* легкая рамка */
+  padding: 20px;
+  color: white; /* текст яркий на фоне */
 
   /* position */
 
@@ -184,12 +232,18 @@
 .temp_text {
   width: 436px;
   height: 517px;
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.2); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие заднего фона */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  border-radius: 15px; /* скругление углов */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* легкая рамка */
+  padding: 20px;
+  color: white; /* текст яркий на фоне */
 
   /* position */
 
-  margin-left: 800px;
-  margin-top: -565px;
+  margin-left: 750px;
+  margin-top: -600px;
 }
 .about {
   width: 436px;
@@ -218,9 +272,9 @@
   second-family: "Montserrat", sans-serif;
 }
 .temp_card {
-  width: 376px;
-  height: 92px;
-  margin-top: 40px;
+  width: 350px;
+  height: 80px;
+  margin-top: 25px;
   font-family: "DM Sans", sans-serif;
   second-family: "Montserrat", sans-serif;
 }
@@ -248,12 +302,18 @@
   width: 1200px;
   height: 584px;
   margin-top: 150px;
-  background-color: #e7e7e7;
+  background: rgba(255, 255, 255, 0.2); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие заднего фона */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  border-radius: 15px; /* скругление углов */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* легкая рамка */
+  padding: 20px;
+  color: white; /* текст яркий на фоне */
 }
 .bay_text {
   width: 819px;
   height: 122px;
-  background-color: #fff;
+  /* текст яркий на фоне */
 }
 .bay_text h2 {
   font-weight: 700;
@@ -262,7 +322,7 @@
   /* line-height: 52px; */
   line-height: 1.7;
   text-align: start;
-  color: #242424;
+  color: #1e1e1e;
   font-family: "DM Sans", sans-serif;
 }
 .bay_text p {
@@ -271,14 +331,14 @@
 
   /* line-height: 27px; */
   line-height: 1.2;
-  color: #383738;
+  color: #2a2323;
   font-family: "DM Sans", sans-serif;
   margin-top: -10px;
 }
 .next {
   width: 96px;
   height: 40px;
-  background-color: #fff;
+
   margin-left: 1100px;
   display: flex;
   justify-content: center;
@@ -287,29 +347,50 @@
 }
 .next svg {
   margin-top: 12px;
+  cursor: pointer;
+}
+.next svg:hover {
+  background-color: #8a6ab6;
 }
 .photo_bay {
   width: 1200px;
   height: 382px;
-  background-color: #c1dcdc;
-  margin-top: 80px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  cursor: pointer;
+}
+.photo_bay:hover {
+  perspective: 1000px; /* включает 3D */
+  transition: 0.5s ease;
+  transform-style: preserve-3d;
+  transform: translateZ(25px); /* карточка как будто выдвигается к экрану */
+  transform: translateZ(40px) scale(1.03);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
 }
 .bay_card {
-  width: 380px;
-  height: 382px;
-
+  width: 320px;
+  height: 370px;
+  background: rgba(255, 255, 255, 0.2); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие заднего фона */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  border-radius: 15px; /* скругление углов */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* легкая рамка */
+  padding: 20px;
+  color: white; /* текст яркий на фоне */
   box-shadow: 0 13px 26px 0 rgba(0, 0, 0, 0.07);
-  background: #fff;
+  margin-top: -40px;
+  margin-left: 30px;
 }
 .bay_card img {
-  width: 380px;
+  width: 320px;
   height: 246px;
 }
 .text_card {
   width: 331px;
   height: 79px;
-  background-color: #fff;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 24px;
 }
 .text_card h3 {
@@ -326,7 +407,6 @@
   height: 26px;
   margin-left: 275px;
   margin-top: -79px;
-  background-color: #fff;
 }
 .like {
   cursor: pointer;
@@ -337,10 +417,11 @@
   border-radius: 100%;
   fill: #ef5423;
   margin-top: 2px;
+  margin-left: -50px;
 }
 .link_button {
   cursor: pointer;
-  background-color: #e1dede;
+  background-color: #e1dada;
   border: none;
   width: 23px;
   height: 23px;
@@ -350,6 +431,14 @@
 }
 .link_card button {
   justify-content: center;
+}
+.link_card button:hover {
+  perspective: 1000px; /* включает 3D */
+  transition: 0.5s ease;
+  transform-style: preserve-3d;
+  transform: translateZ(25px); /* карточка как будто выдвигается к экрану */
+  transform: translateZ(40px) scale(1.03);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
 }
 .coins {
   font-weight: 500;
@@ -365,7 +454,7 @@
   cursor: pointer;
   width: 78px;
   height: 32px;
-  background: #244d4d;
+  background: #473d55;
   border: none;
 
   font-weight: 500;
@@ -375,5 +464,123 @@
   line-height: 1.75;
   color: #fff;
 
-  margin-left: 253px;
+  margin-left: 200px;
+}
+.pain_container {
+  width: 1186px;
+  height: 593px;
+  background: rgba(255, 255, 255, 0.2); /* полупрозрачный фон */
+  backdrop-filter: blur(10px); /* размытие заднего фона */
+  -webkit-backdrop-filter: blur(10px); /* для Safari */
+  border-radius: 15px; /* скругление углов */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* легкая рамка */
+  padding: 20px;
+  color: white; /* текст яркий на фоне */
+  margin-top: 139px;
+}
+.pain_text {
+  width: 720px;
+  height: 103px;
+
+  margin-left: 235px;
+}
+ul {
+  list-style: none; /* убирает точки */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.pain_link {
+  text-decoration: none; /* убирает подчёркивание */
+  color: inherit; /* пусть цвет идёт от родителя */
+
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 27px; */
+  line-height: 1.125;
+  color: #3e4949;
+
+  font-family: "DM Sans", sans-serif;
+}
+.pain_link:hover {
+  color: #000000;
+  transition: 0.3s ease;
+  position: relative;
+  padding: 12px 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.pain_link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: rgb(34, 51, 52);
+  transition: 0.3s ease;
+  transform: translateX(-50%);
+}
+.pain_link:hover::after {
+  width: 100%;
+}
+.pain_text h2 {
+  font-family: "DM Sans", sans-serif;
+
+  font-weight: 700;
+  font-size: 30px;
+
+  /* line-height: 48px; */
+  line-height: 1.5;
+  color: #242424;
+  display: flex;
+  justify-content: center;
+}
+.pain_info {
+  width: 1186px;
+  height: 410px;
+  margin-top: 80px;
+}
+.pain_info img {
+  width: 577px;
+  height: 410px;
+}
+.info_text {
+  width: 474px;
+  height: 336px;
+  margin-left: 712px;
+  margin-top: -370px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* растягивает ровно по ширине контейнера */
+  gap: 15px;
+}
+.info_text img {
+  width: calc(52.33% - 25px); /* точно 3 карточки в ряд */
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+.info_img:hover {
+  background-color: #d1b0f1;
+  color: #ffffff;
+  transition: 0.3s ease;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.bg-video {
+  position: fixed; /* фиксируем на фоне */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* чтобы видео закрывало весь экран */
+  z-index: -1; /* отправляем за весь сайт */
 }
